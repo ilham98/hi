@@ -1,0 +1,31 @@
+body {
+  background-color: #b3e5fc;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes example {
+  0% {
+    background-color: #b3e5fc;
+  }
+  50% {
+    background-color: #29b6f6;
+  }
+  99% {
+    background-color: #b3e5fc;
+  }
+}
+
+.hi {
+  color: #01579b;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  border: 5px solid white;
+  padding: 5px 10px;
+  border-radius: 20px;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
